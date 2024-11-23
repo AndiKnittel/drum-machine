@@ -1,0 +1,33 @@
+.container {
+  text-align: center;
+  margin: 5em;
+}
+
+.drums {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1em;
+  grid-template-rows: 1fr 1fr 1fr;
+  margin: 5em auto;
+  width: min-content;
+}
+
+.drum-pad {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.265);
+  transition: all 0.2s ease-in-out;
+  background: #696767;
+  color: #dfeae0;
+  font-size: 1.5em;
+  cursor: pointer; 
+}
+
+.drum-pad:active {
+  transform: translate(2px, 2px);
+  color: #696767;
+  background: #dfeae0;
+}
+
