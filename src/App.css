@@ -31,3 +31,20 @@
   background: #dfeae0;
 }
 
+
+@media screen and (min-width:250px) and (max-width:480px) {
+  
+  .container {
+    text-align: center;
+    margin: 2em;
+  }
+
+  .drums {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1em;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin: 5em auto;
+    width: min-content;
+  }
+}
